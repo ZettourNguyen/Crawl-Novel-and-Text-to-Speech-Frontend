@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  color: #b50606;
+  margin-bottom: 2px;
+  margin-left: 30px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-top: 2px;
+  margin-left: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#title {
+  justify-content: center;
+}
+
+#title:hover {
+  cursor: pointer;
+}
+
+#title:nth-child():hover {
+  background-color: #ffffff;
+}
+
+.title-child{
+  font-size: 35px;
+  width: 100%;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ffffff;
+  background-color: #F6F9F0;
+  padding-bottom: 5px;
+}
+.title-child:first-child{
+  border-top-left-radius: 30px;
+}
+.title-child:last-child{
+  border-top-right-radius: 30px;
+}
+
+.title-child:hover {
+  background-color: #ffffff;
+  border-bottom: #007BFF;
+  border-style: solid;
+  border-width: 2px;
+}
+.title-selected{
+  background-color: #ffffff;
+  border-bottom: #007BFF;
+  border-style: solid;
+  border-width: 2px;
+}
+.checkbox-group {
+  margin-left: 25px; 
+}
+.checkbox-item {
+  display: flex;
+  align-items: center;
+}
+.checkbox-item input[type="radio"]  {
+  margin-right: 10px;
+  cursor: pointer; 
+}
+
+.checkbox-item label {
+  font-size: 16px; 
+  cursor: pointer; 
+}
+#parent {
+  background-color: #F1F2F3;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+#child {
+  border-radius: 5%;
+  background-color: #ffffff;
+  width: 600px;
+  height: 600px;
+}
+
+#form {
+  display: flex;
+  gap: 2px;
+  width: 90%;
+  margin: auto;
+}
+
+#urlInput {
+  outline: none;
+  height: 20px;
+  flex: 5;
+}
+
+#sendButton {
+  flex: 1;
+}
+
+#logdiv {
+  width: 90%;
+  height: 200px;
+  margin: auto;
+  margin-top: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f42f2f;
+}
+
+#logarea {
+  outline: none;
+  border: 0px;
+  width: 96%;
+  height: 86%;
+  margin: 10px;
+  resize: none;
+  overflow-y: auto;
+}
+
+textarea::-webkit-scrollbar {
+  width: 5px;
+}
+
+#info {
+  display: flex;
+  gap: 10px;
+}
+
+.flex {
+  display: flex;
+}
+.justify-center{
+  justify-content: center;
+}
+.ml-20px {
+  margin-left: 20px;
+}
+
+.my-2px {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#numberInput {
+  outline: none;
+
+}
+
+select {
+  margin-left: 10px;
+  padding: 2px;
+  outline: none;
+}
+
+#sendStop {
+  background-color: #f42f2f;
+}
+
+.text-red {
+  color: #f42f2f;
+}
+
+.text-blue {
+  color: rgb(35, 212, 41);
+}
+
+#statusConnection {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+#mr-2px {
+  margin-right: 4px;
+}
+
+#downloadUrl {
+  color: #179ddc;
+  text-decoration: none;
+  padding: 10px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #ffffff;
+}
+
+#downloadUrl:hover {
+  border-color: #179ddc;
+
+}
+
+h4 {
+  margin: 5px;
+  align-self: center;
+}
