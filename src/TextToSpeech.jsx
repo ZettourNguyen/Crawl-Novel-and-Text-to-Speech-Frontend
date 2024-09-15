@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
-
+import {axiosInstance, BASE_URL} from './api/index.js';
 function TextToSpeech({ clientId }) {
     const [selectedService, setSelectedService] = useState('azure');
     const [selectedLanguage, setSelectedLanguage] = useState('');
@@ -72,7 +72,7 @@ function TextToSpeech({ clientId }) {
         setMp3Url('');
 
         try {
-            const response = await axios.post('http://localhost:3000/texttospeech', { clientId, service, language, voice, text }, { responseType: 'blob' });
+            const response = await axiosInstance.post('/api/texttospeech', { clientId, service, language, voice, text }, { responseType: 'blob' });
             console.log('Response:', response);
 
             if (response.data) {
@@ -183,12 +183,15 @@ function TextToSpeech({ clientId }) {
                 )}
 
             </div>
+            <p className=''>Đề nghị: Sử dụng Aws Polly cho tiếng Anh vì việc upload file của Microsoft không được ổn định, có thể sẽ thiếu độ dài.</p>
+            <p className=''>Voice Tiếng Anh của Microsoft có thể dùng Tiếng Việt. Nếu file âm thanh bị thiếu, hãy click nhiều lần cho đến khi đủ, chúc bạn may mắn</p>
+            <p className=''>Lưu ý: Các dịch vụ TTS trên được dùng với phiên bản miễn phí có giới hạn. Vì vậy, xin hãy dùng tiết kiệm. Xin cảm hơn</p>
             <div id="form">
                 <input ref={inputRef} id="urlInput" type="url" placeholder="Enter your own text here and click the play button to hear the voice." />
                 <button onClick={handleSendText} id="sendButton">Play</button>
             </div>
             {mp3Url && (
-                <div>
+                <div id='divmp3'>
                     <audio controls>
                         <source src={mp3Url} type="audio/mpeg" />
                         Your browser does not support the audio element.

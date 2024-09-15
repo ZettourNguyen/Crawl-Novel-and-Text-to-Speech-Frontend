@@ -5,6 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { TiTick } from "react-icons/ti";
 import { IoMdClose } from "react-icons/io";
 import TextToSpeech from "./TextToSpeech.jsx"
+import {axiosInstance, BASE_URL} from './api/index.js';
 function App() {
   const [messages, setMessages] = useState('');
   const inputRef = useRef(null);
@@ -19,7 +20,8 @@ function App() {
   useEffect(() => {
     const newClientId = uuidv4();
     setClientId(newClientId);
-    const eventSource = new EventSource(`http://localhost:3000/events/${newClientId}`);
+    // const eventSource = new EventSource(`http://localhost:3000/events/${newClientId}`);
+    const eventSource = new EventSource(`${BASE_URL}/api/events/${newClientId}`);
     let chunks = [];
 
     eventSource.onmessage = (event) => {
@@ -82,7 +84,7 @@ function App() {
     setName(url.split('/').slice(-1)[0])
     console.log(url);
     try {
-      const response = await axios.post('http://localhost:3000/url', { url, clientId, selectedNumChapter });
+      const response = await axiosInstance.post('/api/url', { url, clientId, selectedNumChapter });
       console.log('Server response:', response.data);
     } catch (error) {
       console.error('Error sending URL:', error);
@@ -92,7 +94,7 @@ function App() {
   async function handlerStopGenerate() {
     try {
       console.log('Stopppppppppppppppppp')
-      const response = await axios.post(`http://localhost:3000/stop/${clientId}`);
+      const response = await axiosInstance.post(`/api/stop/${clientId}`);
       console.log('Server response:', response.data);
     } catch (error) {
       console.error('Error sending URL:', error);
