@@ -7,6 +7,7 @@ This project is designed to provide two key functionalities: web scraping of nov
 - **Preview Image**: 
 <img src="https://raw.githubusercontent.com/ZettourNguyen/Crawl-Novel-and-Text-to-Speech-Frontend/main/src/assets/Crawl_ui.png">
 <img src="https://raw.githubusercontent.com/ZettourNguyen/Crawl-Novel-and-Text-to-Speech-Frontend/main/src/assets/TextToSpeech_ui.png">
+
 ## Features
 
 ### Crawl Novel:
