@@ -1,9 +1,9 @@
 services:
-  crawl-tts-backend:
-    build: 
-      context: ./test
+  crawl-tts-frontend:
+    build:
+      context: .
       dockerfile: Dockerfile
-    container_name: crawl-tts-backend
+    container_name: crawl-tts-frontend
     ports:
-      - "3000:3000"
+      - "4000:4000"
 
