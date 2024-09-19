@@ -66,35 +66,35 @@ http://localhost:4000/
     http://localhost:4000/
     ```
 
-If you haven't set up the backend yet, please visit [https://github.com/ZettourNguyen/Crawl-Novel-and-Text-to-Speech-Backend](https://github.com/ZettourNguyen/Crawl-Novel-and-Text-to-Speech-Backend) for the setup instructions.
+If you haven't set up the backend yet, please visit [Crawl-Novel-and-Text-to-Speech-Backend](https://github.com/ZettourNguyen/Crawl-Novel-and-Text-to-Speech-Backend) for the setup instructions.
 
 # Result
 ## Crawl novel
 
-<img src="your-image.com" >
+<img src="https://raw.githubusercontent.com/ZettourNguyen/Crawl-Novel-and-Text-to-Speech-Backend/main/assets/image.png" >
 
 ## Text to speech
 ###  Aws Polly:
 ##### English: `This is audio converted from text to speech.`
  
-    <audio controls>
-      <source src="https://example.com/path/to/audio-file.mp3" type="audio/mpeg">
+<audio controls>
+      <source src="https://raw.githubusercontent.com/ZettourNguyen/Crawl-Novel-and-Text-to-Speech-Backend/main/assets/aws-english-joanna.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
 
 ### Microsoft Azure AI Speech:
 ##### English: `This is audio converted from text to speech.`
  
-    <audio controls>
-      <source src="https://example.com/path/to/audio-file.mp3" type="audio/mpeg">
+<audio controls>
+    <source src="https://raw.githubusercontent.com/ZettourNguyen/Crawl-Novel-and-Text-to-Speech-Backend/main/assets/azure-english-andrew.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
-    </audio>
+</audio>
     
 ##### Vietnamese: `Đây là âm thanh được chuyển đổi từ văn bản thành giọng nói.`
  
-    <audio controls>
-      <source src="https://example.com/path/to/audio-file.mp3" type="audio/mpeg">
+<audio controls>
+    <source src="https://raw.githubusercontent.com/ZettourNguyen/Crawl-Novel-and-Text-to-Speech-Backend/main/assets/azure-vietnamese-hoaimy.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
-    </audio>
+</audio>
     
 
