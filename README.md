@@ -77,24 +77,15 @@ If you haven't set up the backend yet, please visit [Crawl-Novel-and-Text-to-Spe
 ###  Aws Polly:
 ##### English: `This is audio converted from text to speech.`
  
-<audio controls>
-      <source src="https://firebasestorage.googleapis.com/v0/b/tttn-ktc.appspot.com/o/assets%2Faws-english-joanna.mp3?alt=media&token=a2833cb6-7cbc-471b-8838-d9649c119416" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
+https://github.com/user-attachments/assets/bce9f55f-b98a-4468-9755-eae17cad8bb1
 
 ### Microsoft Azure AI Speech:
 ##### English: `This is audio converted from text to speech.`
  
-<audio controls>
-    <source src="https://firebasestorage.googleapis.com/v0/b/tttn-ktc.appspot.com/o/assets%2Fazure-english-andrew.mp3?alt=media&token=29834c0a-d387-4bdd-b92e-7fe784cea584" type="audio/mpeg">
-      Your browser does not support the audio element.
-</audio>
+https://github.com/user-attachments/assets/d7982ea8-f55a-43fe-b343-cef42285d7c3
     
 ##### Vietnamese: `Đây là âm thanh được chuyển đổi từ văn bản thành giọng nói.`
  
-<audio controls>
-    <source src="https://firebasestorage.googleapis.com/v0/b/tttn-ktc.appspot.com/o/assets%2Fazure-vietnamese-hoaimy.mp3?alt=media&token=6eaadbaf-78cd-41c2-9eb7-28a1e3113be8" type="audio/mpeg">
-      Your browser does not support the audio element.
-</audio>
+https://github.com/user-attachments/assets/73977c00-543d-4a8f-9dda-07a3896f17c6
     
 
