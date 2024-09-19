@@ -71,14 +71,14 @@ If you haven't set up the backend yet, please visit [Crawl-Novel-and-Text-to-Spe
 # Result
 ## Crawl novel
 
-<img src="https://raw.githubusercontent.com/ZettourNguyen/Crawl-Novel-and-Text-to-Speech-Backend/main/assets/image.png" >
+<img src="https://firebasestorage.googleapis.com/v0/b/tttn-ktc.appspot.com/o/assets%2Fimage.png?alt=media&token=e02bfce6-bf5b-47e1-ae5a-8d78914e506a" >
 
 ## Text to speech
 ###  Aws Polly:
 ##### English: `This is audio converted from text to speech.`
  
 <audio controls>
-      <source src="https://raw.githubusercontent.com/ZettourNguyen/Crawl-Novel-and-Text-to-Speech-Backend/main/assets/aws-english-joanna.mp3" type="audio/mpeg">
+      <source src="https://firebasestorage.googleapis.com/v0/b/tttn-ktc.appspot.com/o/assets%2Faws-english-joanna.mp3?alt=media&token=a2833cb6-7cbc-471b-8838-d9649c119416" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
 
@@ -86,14 +86,14 @@ If you haven't set up the backend yet, please visit [Crawl-Novel-and-Text-to-Spe
 ##### English: `This is audio converted from text to speech.`
  
 <audio controls>
-    <source src="https://raw.githubusercontent.com/ZettourNguyen/Crawl-Novel-and-Text-to-Speech-Backend/main/assets/azure-english-andrew.mp3" type="audio/mpeg">
+    <source src="https://firebasestorage.googleapis.com/v0/b/tttn-ktc.appspot.com/o/assets%2Fazure-english-andrew.mp3?alt=media&token=29834c0a-d387-4bdd-b92e-7fe784cea584" type="audio/mpeg">
       Your browser does not support the audio element.
 </audio>
     
 ##### Vietnamese: `Đây là âm thanh được chuyển đổi từ văn bản thành giọng nói.`
  
 <audio controls>
-    <source src="https://raw.githubusercontent.com/ZettourNguyen/Crawl-Novel-and-Text-to-Speech-Backend/main/assets/azure-vietnamese-hoaimy.mp3" type="audio/mpeg">
+    <source src="https://firebasestorage.googleapis.com/v0/b/tttn-ktc.appspot.com/o/assets%2Fazure-vietnamese-hoaimy.mp3?alt=media&token=6eaadbaf-78cd-41c2-9eb7-28a1e3113be8" type="audio/mpeg">
       Your browser does not support the audio element.
 </audio>
     
